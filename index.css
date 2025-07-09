@@ -1,0 +1,54 @@
+*{padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+nav{
+ background-color: black;
+ padding: 20px 0;
+ color: aqua;
+}
+
+div{
+display: flex;
+justify-content: space-between;
+width: 80%;
+align-items: center;
+color: aqua;
+margin: auto;
+}
+
+div,h1{
+  font-weight: 800;
+  font-size: medium;
+}
+
+div,ul{
+    display: flex;
+    gap: 10px;
+    font-size: medium;
+    font-weight: 500;
+}
+
+div,ul,li{
+    list-style: none;
+}
+
+section{
+    max-width: 50%;
+    text-align: center;
+    padding: 30px 0;
+    margin: auto;
+    font-size: 2rem;
+    line-height: 2;
+}
+
+button{
+    padding: 5px 30px;
+    border-radius: 20px;
+    background-color: chocolate;
+    color:aqua;
+}
+button:hover{
+    background-color: red;
+}
